@@ -1,30 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="Patricia Jimenez" content="patriciajic">
+	<meta name="descripción" content="Conociendo HTML 2.0">
 	<meta charset="utf-8">
+	<!--Boostrap 4-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 	<link rel="shortcut icon" href="favicon.ico">
 	<title>Conociendo HTML</title>
+
 </head>
+
 <body>
-	<h1>Grace Hopper</h1>
-	<h2>Bio</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius scelerisque urna at varius. Aenean aliquam purus et maximus congue. Ut a blandit est, eget pulvinar velit. Quisque viverra risus quis ante consequat, et eleifend tellus sodales. Duis viverra est orci, vitae finibus dui vehicula vel. Etiam non erat risus. Fusce vitae elit a arcu tincidunt maximus a ac sapien. Etiam accumsan libero consequat mi tempus, nec sagittis odio sollicitudin. Integer egestas gravida libero sed suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-	<ul>
-		<li>Cocinar</li>
-		<a href=""><li>Programar</li></a>
-		 <ul>
-		 	<li>Javascript</li>
-		 	<li>Ruby</li>
-		 	<li>Java</li>
-		 </ul>
-		    <li>Enseñar</li>
-	</ul>
-	<h2>3 Sueños que tengo</h2>
-	<ol>
-		<li>Viajar por el mundo</li>
-		<li>Ver a <a href="http://laboratoria.la/" target="_blank">Laboratoria</a> en todos los países</li>
-		<li>Que todas aprendan a codear</li>
-	</ol>
-	<center><img src="http://a3.files.biography.com/image/upload/c_fill,cs_srgb,dpr_1.0,g_face,h_300,q_80,w_300/MTE5NTU2MzE2NjYxNTE1Nzg3.jpg"></center>
+	<div class="container">
+		<!-- Page header -->
+		<div class="page-header">
+			<br>
+  			<h1 class="text-center"> Grace Hopper <small>Bio</small></h1>
+		</div>
+		<h3 class="text-center">Armada y femenina</h3>
+		<br>
+		<p>Hoy en día se discute mucho sobre cómo hacer que más mujeres hagan carrera en tecnología.
+			En 1906, cuando Grace Hopper nació en Nueva York, Estados Unidos, a pocos les preocupaba la igualdad de género en el mercado de trabajo. </p>
+		<p>Afortunadamente para ella, entre esos pocos estaba su padre, un ejecutivo de seguros de vida quien no entendía por qué sus hijas debían recibir menos educación que su hijo.</p>
+		<p>Grace Hopper fue a un buen colegio y resultó que era brillante en matemáticas.
+			Aunque soñaba con alistarse en la Armada como su abuelo, en ese tiempo no recibían mujeres, así que se resignó a ser una profesora.</p>
+		<p>Pero en 1941, cuando el ataque a Pearl Harbour arrastró a Estados Unidos a la Segunda Guerra Mundial, el talento femenino también fue llamado a luchar, y la Armada empezó a aceptar mujeres.
+			Grace se alistó inmediatamente.</p>
+		<br>
+		<!-- Card -->
+		<center>
+			<div class="card" style="width: 20rem;">
+			  <img class="card-img-top" src="http://a3.files.biography.com/image/upload/c_fill,cs_srgb,dpr_1.0,g_face,h_300,q_80,w_300/MTE5NTU2MzE2NjYxNTE1Nzg3.jpg" alt="Grace Hopper">
+			  <div class="card-block">
+			    <h4 class="card-title">Grace Hopper</h4>
+			    <p class="card-text">Grace Hopper, la mujer sin la que te podría tomar 5.000 años instalar Windows</p>
+			    <a href="http://www.bbc.com/mundo/noticias-38586597" target="_blank" class="btn btn-outline-info">Saber más</a>
+			  </div>
+			</div>
+		</center>
+		<br>	
+		<small> Fuente: BBC Mundo</small>
+	</div>
 </body>
 </html>
